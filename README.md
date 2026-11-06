@@ -144,8 +144,9 @@ POLLINATIONS_TOKEN=your-token npm run dev
 
 ## Better quality later
 
-The image work is isolated in `server.js` and `src/lib/image.ts`. If you want
-stronger output:
+See [`research.md`](./research.md) for the full comparison of free and local
+options. The image work is isolated in `server.js` and `src/lib/image.ts`. If
+you want stronger output:
 
 1. **Pollinations token** — cheapest change; FLUX is a clear step up from Sana.
 2. **Cloudflare Workers AI** — ~10,000 free neurons/day, FLUX.1 schnell; replace
